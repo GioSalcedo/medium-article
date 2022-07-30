@@ -1,0 +1,87 @@
+body {
+  background-color: #181A1B;
+  color: rgb(232, 230, 227);
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+a {
+  font-size: 60px;
+  font-style: italic;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-size: 50px;
+}
+
+.principal{
+  margin: 20px;
+}
+
+.banner {
+  background-image: url("https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 50px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#title-hover {
+  background-color: rgba(127, 255, 212, 0.591);
+}
+
+#title-hover:hover {
+  background-color: rgb(127, 255, 212);
+}
+
+div {
+  display: block;
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 576px;
+  }
+}
+
+@media(max-width: 575px) {
+  .container {
+    width: 300px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
